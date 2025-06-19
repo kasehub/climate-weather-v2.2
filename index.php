@@ -317,7 +317,7 @@ if (!isset($_SESSION['loggedin'])) {
 
         const analysis = analyzeClimateData(filteredData);
         
-        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyBTSA_bJ3AN4izELy8G8BAAJ4jj0hEL72Q', {
+        const response = await fetch('https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=API KEY', {
             method: 'POST',
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({
